@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pascal Onuoha - Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/fd181f128a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="cont">
+            <nav>
+                <a href="#about" class="logo">PASCAL</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#port">My Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi! <br />I am <span>Pascal Onuoha</span></h1><br>
+                <p>Software Engineer | Graphic Designer | UI-UX Designer</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about">
+        <div class="cont">
+            <div class="row">
+                <div class="ab-col1">
+                    <img src="images/facecard.jpg" alt="Profile Image" /><br />
+                </div>
+                <div class="ab-col2">
+                    <h1 class="title">About Pascal</h1>
+                    <p>
+                        Pascal is a passionate software engineering student at the African
+                        Leadership University, where he's been honing his technical skills.
+                        Beyond the classroom, he has delved into the world of web
+                        development, acquiring practical knowledge that complements his
+                        formal education.<br /><br />
+                        With over three years of experience as a Graphic and UI/UX designer,
+                        he has created mind-blowing designs that are both visually captivating
+                        and simple, leaving clients stunned while gaining valuable insights
+                        and expertise.<br />
+                        He leverages his extensive knowledge to seamlessly merge technology
+                        with coding, graphic design, and UI/UX. His approach is all about using
+                        technology to craft experiences that have a positive impact on
+                        people's lives, going beyond mere coding and design.
+                        <br /><br />
+                        If you're looking for innovative solutions and exciting insights,
+                        you're in the right place. Welcome to his digital world!
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>PHP:</span><br />Control Structures, Functions, and Algorithms
+                            </li>
+                            <li>
+                                <span>Python:</span><br />Data Analysis, Scripting, and Web Development
+                            </li>
+                            <li>
+                                <span>HTML/CSS:</span><br />Web Design and Front-end Development
+                            </li>
+                            <li>
+                                <span>JavaScript:</span><br />Webpage Animation and Interactivity
+                            </li>
+                            <li>
+                                <span>Git/GitHub:</span><br />Version Control and Collaboration
+                            </li>
+                            <li>
+                                <span>Graphics Design:</span><br />Canva, Crello, and Adobe Suite
+                            </li>
+                            <li>
+                                <span>Customer Relations:</span><br />Providing High-Level Service
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>December 2022 - February 2023:</span><br />Mira Technologies - Lagos, Nigeria
+                                <p>
+                                    Junior Web Developer Intern
+                                    <br />
+                                    - Developed code, wrote unit tests, fixed bugs, and participated in code reviews.
+                                    <br />
+                                    - Wrote custom PHP code for existing websites and applications.
+                                    <br />
+                                    - Assisted in troubleshooting issues on web-based systems.
+                                </p>
+                            </li>
+                            <li>
+                                <span>February 2021 - August 2021:</span><br />Pahylcon tech - Genk, Belgium
+                                <p>
+                                    C# Back-End Engineer Intern
+                                    <br />
+                                    - Developed code, wrote unit tests, fixed bugs, and participated in code reviews.
+                                    <br />
+                                    - Created methods, handled exceptions, and described the monitoring requirements of large-scale applications.
+                                    <br />
+                                    - Implemented functions and modules for the company's Microsoft Office Plugin.
+                                    <br />
+                                    - Participated as a team member in fully agile Scrum deliveries.
+                                </p>
+                            </li>
+                            <li>
+                                <span>September 2020 - August 2022:</span><br />Kadel Pharmacy - Gombe, Nigeria
+                                <p>
+                                    Data Entry Clerk
+                                    <br />
+                                    - Managed the transfer of data from paper to computer database.
+                                    <br />
+                                    - Typed customer information while creating spreadsheets and verifying them against source documents.
+                                    <br />
+                                    - Replied to company emails and sorted out ledgers.
+                                    <br />
+                                    - Typed and edited official company documents.
+                                    <br />
+                                    - Assisted in handling medical queries from team members or clients while providing accurate and up-to-date information on various health topics and conditions, helping to address concerns and provide guidance.
+                                </p>
+                            </li>
+                            <li>
+                                <span>June 2020 - May 2022:</span><br />Mr. Khumalo Ambani - Gombe, Nigeria
+                                <p>
+                                    Virtual Assistant
+                                    <br />
+                                    Content Creation and Social Media Management:
+                                    - Assisted with content creation and social media management.
+                                    - Helped with writing and editing blog posts, creating social media posts, designing graphics, and scheduling content publication.
+                                    - Engaged with followers, responded to comments, and analyzed social media metrics to optimize content strategy.
+                                    Administrative Support:
+                                    - Handled various administrative tasks for Mr. Khumalo, including managing schedules, booking appointments, organizing emails, handling correspondence, and maintaining databases.
+                                    - Also, assisted with travel arrangements, expense tracking, and other day-to-day administrative duties that helped streamline operations.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>University:</span><br />African Leadership University Kigali, Rwanda
+                            </li>
+                            <li><span>Major:</span><br />Software Engineering</li>
+                            <li>
+                                <span>Duration:</span><br />September 2022 - February 2026
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Services Section -->
+    <div id="services">
+        <div class="cont">
+            <h1 class="title">My Services</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-coe"></i>
+                    <h2>Web Development</h2>
+                    <p>
+                        I create captivating, user-friendly websites tailored to your unique brand and vision, driving online success
+                    </p>
+                    <a href="https://pascalonuoha.my.canva.site/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-canvas"></i>
+                    <h2>Graphic Design</h2>
+                    <p>
+                        I provide expert graphic design services with over 3 years of experience, delivering creative solutions that enhance your visual identity
+                    </p>
+                    <a href="https://pascalonuoha.my.canva.site/" target="_blank">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-internet"></i>
+                    <h2>UI-UX Design</h2>
+                    <p>
+                        With vast years of experience, I excel in UI/UX design, crafting digital experiences that seamlessly blend aesthetics and usability to ensure user satisfaction
+                    </p>
+                    <a href="https://pascalonuoha.my.canva.site/" target="_blank">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Section -->
+    <div id="port">
+        <div class="cont">
+            <h1 class="title">My Projects</h1>
+            <div class="proj-list">
+                <div class="proj">
+                    <img src="images/Screenshot (252).png" alt="Well-Fit" />
+                    <div class="layer">
+                        <h3>Fitness Website</h3>
+                        <p>
+                            Explore the recent fitness website design for personalized workout routines and nutrition tips.
+                        </p>
+                        <a href="https://musical-dasik-8bebcd.netlify.app/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/Screenshot (251).png" alt="Weather Data" />
+                    <div class="layer">
+                        <h3>APIs</h3>
+                        <p>
+                            Experience my weather app, your go-to source for real-time weather information and insights, ensuring you stay ahead of changing conditions and make informed choices
+                        </p>
+                        <a href="https://github.com/iPascal619/Weather-API_project" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="proj">
+                    <img src="images/Screenshot (250).png" alt="Graphic Studio" />
+                    <div class="layer">
+                        <h3>Graphix</h3>
+                        <p>
+                            Explore my graphic design portfolio to take a glimpse into my creative world, where I showcase captivating visual designs and creative projects that reflect my passion for design excellence.
+                        </p>
+                        <a href="https://pascalonuoha.my.canva.site/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/iPascal619?tab=repositories" target="_blank" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!-- Contact Me section -->
+    <div id="contact">
+        <div class="cont">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>pascalonuoha324@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+250791956079</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/pascal-onuoha-128188229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/iPascal619"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="file:///C:/Users/HP/Downloads/_of%20%20ResumE%20(2).pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <label for="name">Name:</label>
+                        <input type="text" name="Name" placeholder="Please, input your name" required />
+                        <label for="email">Email:</label>
+                        <input type="email" name="Email" placeholder="Please, input your email" required />
+                        <label for="message">Message:</label>
+                        <textarea name="Message" placeholder="Send me a message" rows="6"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>
+                Copyright © Pascal Onuoha Portfolio - 2023
+            </p>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="motion.js"></script>
+</body>
+</html>
